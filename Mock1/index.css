@@ -1,0 +1,110 @@
+body {
+  }
+/* 
+  #main{
+    justify-content: center;
+    align-items: center;
+
+  } */
+
+  #navbar{
+    background-image: url("https://wallpapercave.com/wp/wp7111691.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: 700px;
+    position: relative;
+    
+    /* border: 5px solid green; */
+
+  }
+
+
+  #navbar>#navbar1{
+    padding: 15px;
+  }
+
+
+  #navbar>#navbar1>h1{
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+
+  }
+
+
+  #navbar>#navbar2{
+    /* border: 1px solid green; */
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+
+  #navbar>#navbar2>h1{
+    text-align: center;
+    color: red;
+  }
+
+  #navbar>#navbar2>h2{
+    text-align: center;
+    color: red;
+  }
+
+  #navbar>#navbar2>#btns{
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+
+  #work{
+    padding-top: 50px;
+  }
+  #work>#work1{
+    text-align: center;
+  }
+
+  #work>#work2{
+    justify-content: center;
+    align-items: center;
+display: grid;  
+grid-template-columns: repeat(2,280px);   
+}
+
+
+#work>#work2>#work2-1>#work2-1-2{
+  justify-content: center;
+  align-items: center;
+display: grid;  
+grid-template-columns: repeat(2,1fr);   
+}
+
+
+#apartment{
+  background-color: powderblue;
+}
+
+
+#posts{
+  
+display: grid;  
+grid-template-columns: repeat(2,1fr);   
+}
+
+#pposts{
+  
+  display: grid;  
+  grid-template-columns: repeat(2,1fr);   
+  gap: 20px;
+  }
+
+
+
+/* #pposts-2{
+  display: grid;  
+grid-template-columns: repeat(2,300px);  
+} */
